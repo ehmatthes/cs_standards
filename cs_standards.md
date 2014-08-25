@@ -39,6 +39,18 @@ FA: Computational Thinking
 FA: Collaboration
 ---
 
+- CA: Using Technology Tools and Resrouces for Collaboration
+- CA: Computing as a Collaborative Endeavor
+  - Level 1:
+  - PI: Work cooperatively and collaboratively with peers, teachers, and others using technology.
+  - PI: Identify ways that teamwork and collaboration can support problem solving and innovation.
+  - Level 2:
+  - PI: Exhibit dispositions necessary for collaboration: providing useful feedback, understanding and accepting multiple perspectives, socialization.
+  - Level 3:
+  - Describe how computing enhances traditional forms and enables new forms of experience, expression, communication and collaboration.
+  - Identify how collaboration influences the design and development of software products.
+  - Evaluate programs written by others for readability and useability.
+
 FA: Computing Practice & Programming
 ---
 
