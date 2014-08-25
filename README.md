@@ -19,6 +19,16 @@ Briefly, the GSP model is structured as follows:
         - Learning Objective
 
 
+Contributing
+---
+
+It's overwhelming to put all of the CSTA standards into the GSP format at once. I'm starting by including the standards I'm aiming to reach in my fall Introduction to Programming class.
+
+If you want to help, please let me know. There are a number of things that can be done, so let me know what your priorities are, and we'll agree on a way to move the overall project forward.
+
+- ehmatthes@gmail.com
+- [twitter.com/ehmatthes](http://twitter.com/ehmatthes)
+
 Resources
 ---
 
