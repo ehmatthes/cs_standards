@@ -40,6 +40,13 @@ FA: Collaboration
 ---
 
 - CA: Using Technology Tools and Resrouces for Collaboration
+  - Level 2:
+  - PI: Collaborate with peers, experts, and others using collaborative practices such as pair programming, working in project teams, and participating in group active learning activities.
+  - Level 3:
+  - PI: Work in a team to design and dvelop a software artifact.
+  - PI: Use collaborative tools to create software artifacts and to communicate with team members.
+  - PI: Use project collaboration tools, version control systems, and IDEs while workikng on a collaborative software project.
+  - PI: Demonstrate the software life cycle and agile development process through participating on a software project team.
 - CA: Computing as a Collaborative Endeavor
   - Level 1:
   - PI: Work cooperatively and collaboratively with peers, teachers, and others using technology.
@@ -47,9 +54,9 @@ FA: Collaboration
   - Level 2:
   - PI: Exhibit dispositions necessary for collaboration: providing useful feedback, understanding and accepting multiple perspectives, socialization.
   - Level 3:
-  - Describe how computing enhances traditional forms and enables new forms of experience, expression, communication and collaboration.
-  - Identify how collaboration influences the design and development of software products.
-  - Evaluate programs written by others for readability and useability.
+  - PI: Describe how computing enhances traditional forms and enables new forms of experience, expression, communication and collaboration.
+  - PI: Identify how collaboration influences the design and development of software products.
+  - PI: Evaluate programs written by others for readability and useability.
 
 FA: Computing Practice & Programming
 ---
