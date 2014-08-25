@@ -17,3 +17,10 @@ Briefly, the GSP model is structured as follows:
     - Competency Area
       - Performance Indicator
         - Learning Objective
+
+
+Resources
+---
+
+- CSTA Standards
+- Map of CSTA standards
