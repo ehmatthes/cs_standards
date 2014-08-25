@@ -61,6 +61,21 @@ FA: Collaboration
 FA: Computing Practice & Programming
 ---
 
+- CA: Using Techonology Resources for Learning
+  - Level 1:
+  - PI: Use technology resources for problem-solving and self-directed learning.
+- CA: Use Technology Tools for the Creation of Digital Artifacts
+  - Level 1:
+  - PI: Determine which technology is useful and select appropriate technology resources to address a variety of tasks and problems.
+  - Level 2:
+  - PI: Design, develop, publish and present products using technology resources that demonstrate and communicate curriculum concepts.
+  - Level 3:
+  - PI: Create and organize web pages through the use of a variety of design tools.
+  - PI: Use advanced tools to create digital artifacts.
+- CA: Programming
+- CA: Interacting with Remote Information
+- CA: Data Collection and Analysis
+
 FA: Computers and Communications Devices
 ---
 
