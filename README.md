@@ -14,7 +14,7 @@ Briefly, the GSP model is structured as follows:
 
 - Subject Area
   - Focus Area
-    - Competency Area
+    - Competency Area (Graduation Standard)
       - Performance Indicator
         - Learning Objective
 
