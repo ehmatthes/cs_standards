@@ -73,9 +73,52 @@ FA: Computing Practice & Programming
   - PI: Create and organize web pages through the use of a variety of design tools.
   - PI: Use advanced tools to create digital artifacts.
 - CA: Programming
+  - Level 1:
+  - PI: Implement problem solutions in a block-based visual programming environment.
+  - Level 2:
+  - PI: Demonstrate an understanding of algorithms, and their practical applications.
+  - PI: Implement problem solutions in a programming environment using: looping behavior, conditional statements, logic, expressions, variables, and functions.
+  - Level 3:
+  - PI: Use debugging and unit testing to verify programs.
+  - PI: Solve problems using analysis, design and implementation techniques.
+  - PI: Use APIs and libraries to facilitate programming solutions.
+  - PI: Use functions and classes to decompose large scale computational problems.
+  - PI: Use object oriented principles in program design.
+  - PI: Select appropriate file formats for various types of data.
+  - PI: Describe the variety of programming languages available.
+  - PI: Explain the program execution process.
+  - PI: Classify programming languages by level and application domain.
+  - PI: Explore principles of system design in scaling, efficiency, and security.
 - CA: Interacting with Remote Information
+  - Level 1:
+  - PI: Use computing devices, including mobile devices, to access remote information, communicate with others in support of direct and independent learning and pursue personal interests.
+  - PI: Understnad the organizations of Internet elements and web pages.
+  - Level 2:
+  - PI: Demonstrate good practices in personal information security: using passwords, encryption, secure transactions.
+  - Level 3:
+  - PI: Explain the principles of security by examining encryption, cryptography, and authentication techniques.
+  - PI: Deploy principles of security by examining encryption and authentication techniques.
+- CA: Careers
+  - Level 1:
+  - PI: Identify careers (across a wide spectrum) that use computing and technology.
+  - PI: Idenitfy different careers in computing and the interdisciplinary nature of computing in the 21st century.
+  - Level 2: 
+  - PI: Identify interdisciplinary careers that are enhanced by computer science.
+  - PI: Develop dispositions amenable to open-ended problem solving and programming.
+  - Level 3:
+  - PI: Explore a variety of careers in computing (IT specialist, web designer, systems analyst, programmer, CIO, computer scientist.
+  - PI: Anticipate future careers and the technologies that will exist.
 - CA: Data Collection and Analysis
-
+  - Level 1:
+  - PI: Gather and organize information with concept mapping tools.
+  - PI: Gather and organize information using a variety of digital concept mapping tools.
+  - Level 2:
+  - PI: Collect and analyze data that is output from multiple runs of a computer program.
+  - Level 3:
+  - PI: Describe techniques for locating and collecting small and large scale data sets.
+  - PI: Compare techniques for analyzing massive data collections.
+  - PI: Use data analysis to enhance understanding of complex natural and human systems.
+  - PI: Deploy various data collection techniques for differnt types of problems.
 FA: Computers and Communications Devices
 ---
 
