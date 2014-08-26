@@ -119,6 +119,7 @@ FA: Computing Practice & Programming
   - PI: Compare techniques for analyzing massive data collections.
   - PI: Use data analysis to enhance understanding of complex natural and human systems.
   - PI: Deploy various data collection techniques for differnt types of problems.
+
 FA: Computers and Communications Devices
 ---
 
