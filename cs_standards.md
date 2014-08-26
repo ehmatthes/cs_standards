@@ -122,5 +122,41 @@ FA: Computing Practice & Programming
 FA: Computers and Communications Devices
 ---
 
+- CA: Computers
+  - Level 1:
+  - PI: Demonstrate an appropriate level of proficiency with keyboards and other input and output devices.
+  - Level 2:
+  - PI: Recognize that computers are devices that execute programs.
+  - PI: Demonstrate an understanding of concepts underlying hardware and software, and their practical applications.
+  - Level 3:
+  - PI: Describe the unique features of computers embedded in mobile devices and vehicles.
+  - PI: Describe how various types of data are stored in a computer system.
+  - PI: Descirbe the principal components of computer organization.
+  - PI: Compare various forms of input and output media.
+  - PI: Explain the mutlple levels of hardward and software that support program execution.
+- CA: Troubleshooting
+  - Level 1:
+  - PI: Apply strategies for identifying and solving simple hardware problems that occur during everyday use.
+  - Level 2:
+  - PI: Apply strategies for identifying and solving routine hardware problems that occur during everyday life.
+  - Level 3:
+  - PI: Apply strategies for identifying and solving routine hardware and software problems that occur during everyday use.
+- CA: Networks
+  - Level 1:
+  - PI: Identify that information is coming to the computer from many sources over a network.
+  - Level 2:
+  - PI: Describe the major components and functions of computer systems and networks.
+  - Level 3:
+  - PI: Compare and contrast client-server and peer-to-peer network strategies.
+  - PI: Explain the basic components of computer networks (e.g. servers, file protection, routing, spoolers and queues, shared resources, and fault-tolerance).
+  - PI: Describe how the Internet facilitates global communication.
+  - PI: Describe the issues that impact network functionality (e.g. latency, bandwidth, firewalls and server capability).
+- CA: Human vs. Computers
+  - Level 2:
+  - PI: Describe what distinguishes humans from machines with a focus on human intelligence vs. machine intellgience and ways we can communicate.
+  - PI: Recognize that computers use models of intelligent behavior.
+  - Level 3:
+  - PI: Describe the major applications of Artificial Intelligence and Robotics.
+  - PI: Explain the notion of intelligent behavior through computer modeling and robotics.
 FA: Community Global, and Ethical Impacts
 ---
