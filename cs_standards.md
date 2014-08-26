@@ -159,5 +159,55 @@ FA: Computers and Communications Devices
   - Level 3:
   - PI: Describe the major applications of Artificial Intelligence and Robotics.
   - PI: Explain the notion of intelligent behavior through computer modeling and robotics.
+
 FA: Community Global, and Ethical Impacts
 ---
+
+- CA: Responsible Use
+  - Level 1:
+  - PI: Practice reponsible digital citizenship in the use of technology systems and software.
+  - PI: Discuss basic issues related to responsible use of technology and infromation, and the consequences of inappropriate use.
+  - Level 2:
+  - PI: Exhibit legal and ethical behaviors when using information and technology and discuss the consequences of misuse.
+  - Level 3:
+  - PI: Compare appropriate and inappropriate social networking behaviors.
+  - PI: Demonstrate etchical use of modern communication media and devices.
+- CA: Impacts of Technology
+  - Level 1:
+  - PI: Identify the impact of technology (e.g. social networking, cyberbullying, mobile and web technologies, cyber-security, and virtualization) on personal life and society.
+  - Level 2:
+  - PI: Demonstrate knowledge of changes in information over time and the effects those changes may have on education, the workplace, and society.
+  - PI: analyze the positive and negative impacts of technology on human culture.
+  - Level 3:
+  - PI: Compare the positive and negative impacts of technology on culture.
+  - PI: Discuss the impact of computer technology on business and commerce.
+  - PI: Describe the role that adaptive technology can play in the lives of people with special needs.
+  - PI: Analyze the beneficial and harmful effects of computing innovations.
+  - PI: Summarize how financial markets, transactions, and predictions have been transformed by automation.
+  - PI: Summarize how computation has revolutionized the way people build real and virtual organizations and infrastructures.
+- CA: Information Accuracy
+  - Level 1:
+  - PI: Evaluate the accuracy, relevance, appropriateness, comprehensiveness, and biases that occur in electronic information sources.
+  - Level 2:
+  - PI: Evaluate the accuracy, relevance, appropriateness, comprehensiveness, and bias of electronic information sources concerning real-world problems.
+  - Level 3:
+  - PI: Describe a variety of strategies for determining the reliability of infomration found on the internet.
+- CA: Ethics, Laws, and Security
+  - Level 1:
+  - PI: Identify positive social and ethical behaviors for using technology.
+  - PI: Understand ethical issues that relate to computers and networks (eg equity of access, security, privacy, copyright, and intellectual property).
+  - Level 2:
+  - PI: Describe ethical issues that relate to comptuers & networks (e.g. security, privacy, information sharing, ownership).
+  - Level 3:
+  - PI: Differentiate between information access and distribution rights.
+  - PI: Describe how different kinds of software licenses can be used to share and protect intellectual property.
+  - PI: Discuss the social and economic implications associated with hacking and software piracy.
+  - PI: Identify laws and regulations that impact the development and use of software.
+  - PI: analyze the impact of government regulations on privacy and security.
+  - PI: Differentiate among open source, freeware, and proprietary licenses and their applicability to different types of software.
+- CA: Equity
+  - Level 2:
+  - PI: Discuss how the unequal distribution of computing resources in a global economy raises issues of equity, access, and power.
+  - Level 3:
+  - PI: Explain the impact of the digital divide on access to critical information.
+  - PI: Relate issues of equity, access, and power to the distribution of computing resources in a global economy.
