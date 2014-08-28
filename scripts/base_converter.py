@@ -51,38 +51,14 @@ for line in lines:
         performance_indicators.append(new_pi)
 
 
-current_fa = ''
-current_ca = ''
-for ca in competency_areas:
-    if ca.focus_area != current_fa:
-        current_fa = ca.focus_area
-        print('\n' + current_fa.focus_area.title())
-    print('\n  ' + ca.competency_area.title())
-    # Run through pi's, pull relevant ones.
-    #  Would be much better in a db, running a query!
-    current_level = ''
-    for pi in performance_indicators:
-        if pi.competency_area == ca:
-            if pi.level != current_level:
-                current_level = pi.level
-                print('\n    Level %s' % current_level)
-            print('      ' + pi.performance_indicator.capitalize())
-
-
-
-# Dump the standards into a markdown file.
-with open('../auto_generated_files/all_standards_simple_format.md', 'w') as f:
-    f.write('Computer Science\n===\n')
+def show_all_standards():
     current_fa = ''
     current_ca = ''
     for ca in competency_areas:
         if ca.focus_area != current_fa:
             current_fa = ca.focus_area
-            #print('\n' + current_fa.focus_area.title())
-            f.write('\n' + current_fa.focus_area.title() + '\n---\n\n')
-        #print('\n  ' + ca.competency_area.title())
-        f.write('- ' + ca.competency_area.title() + '\n')
-
+            print('\n' + current_fa.focus_area.title())
+        print('\n  ' + ca.competency_area.title())
         # Run through pi's, pull relevant ones.
         #  Would be much better in a db, running a query!
         current_level = ''
@@ -90,5 +66,36 @@ with open('../auto_generated_files/all_standards_simple_format.md', 'w') as f:
             if pi.competency_area == ca:
                 if pi.level != current_level:
                     current_level = pi.level
-                    #print('\n    Level %s' % current_level)
-                #print('      ' + pi.performance_indicator.capitalize())
+                    print('\n    Level %s' % current_level)
+                print('      ' + pi.performance_indicator.capitalize())
+
+
+def auto_gen_all_standards():
+    # Dump the standards into a markdown file.
+    with open('../auto_generated_files/all_standards_simple_format.md', 'w') as f:
+        f.write('Computer Science\n===\n')
+        current_fa = ''
+        current_ca = ''
+        for ca in competency_areas:
+            if ca.focus_area != current_fa:
+                current_fa = ca.focus_area
+                #print('\n' + current_fa.focus_area.title())
+                f.write('\n' + current_fa.focus_area.title() + '\n---\n\n')
+            #print('\n  ' + ca.competency_area.title())
+            f.write('- ' + ca.competency_area.title() + '\n')
+
+            # Run through pi's, pull relevant ones.
+            #  Would be much better in a db, running a query!
+            current_level = ''
+            for pi in performance_indicators:
+                if pi.competency_area == ca:
+                    if pi.level != current_level:
+                        current_level = pi.level
+                        #print('\n    Level %s' % current_level)
+                    #print('      ' + pi.performance_indicator.capitalize())
+
+    print("Generated file: all_standards_simple_format.md.")
+
+
+
+auto_gen_all_standards()
