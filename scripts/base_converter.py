@@ -70,9 +70,16 @@ def show_all_standards():
                 print('      ' + pi.performance_indicator.capitalize())
 
 
-def auto_gen_all_standards():
-    # Dump the standards into a markdown file.
-    with open('../auto_generated_files/all_standards_simple_format.md', 'w') as f:
+def auto_gen_all_standards(prefix = ''):
+    """Dump the standards into a markdown file.
+    Prefix allows generation of a simple checklist.
+      Prefixing underscores gives space to record scores etc.
+    """
+    if prefix:
+        filepath = '../auto_generated_files/all_standards_simple_format_prefix_' + prefix.strip() + '.md'
+    else:
+        filepath = '../auto_generated_files/all_standards_simple_format.md'
+    with open(filepath, 'w') as f:
         f.write('Computer Science\n===\n')
         current_fa = ''
         current_ca = ''
@@ -80,7 +87,7 @@ def auto_gen_all_standards():
             if ca.focus_area != current_fa:
                 current_fa = ca.focus_area
                 f.write('\n\n' + current_fa.focus_area.title() + '\n---\n\n')
-            f.write('\n- ' + ca.competency_area.title())
+            f.write('\n- ' + prefix + ca.competency_area.title())
 
             # Run through pi's, pull relevant ones.
             #  Would be much better in a db, running a query!
@@ -92,25 +99,14 @@ def auto_gen_all_standards():
                         if not level_shown and level != '':
                             f.write('\n  - Level %s Performance Indicators:' % level)
                             level_shown = True
-                        f.write('\n    - ' + pi.performance_indicator.capitalize())
+                        f.write('\n    - ' + prefix + pi.performance_indicator.capitalize())
                         
 
 
                             
-    print("Generated file: all_standards_simple_format.md.")
+    print("Generated file: all_standards_simple_format.md. prefix: %s" % prefix)
 
 
 
 auto_gen_all_standards()
-
-"""
-            for pi in performance_indicators:
-                if pi.competency_area == ca:
-                    level_shown = False
-                    for level in levels:
-                        if pi.level == level:
-                            if not level_shown and level != '':
-                                f.write('\n  - Level %s Performance Indicators:' % level)
-                                level_shown = True
-                            f.write('\n  - ' + pi.performance_indicator.capitalize())
-"""
+auto_gen_all_standards(prefix='____ ')
