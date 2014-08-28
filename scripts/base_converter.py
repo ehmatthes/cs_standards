@@ -9,8 +9,8 @@ class CompetencyArea():
         self.competency_area = ''
 
 class PerformanceIndicator():
-    def __init__(self, competency_area):
-        self.level = '1'
+    def __init__(self, level, competency_area):
+        self.level = ''
         self.competency_area = competency_area
         self.performance_indicator = ''
 
@@ -22,6 +22,8 @@ with open('../cs_standards.md') as fobj:
 
 focus_areas = []
 competency_areas = []
+current_level = ''
+performance_indicators = []
 
 for line in lines:
     
@@ -37,6 +39,17 @@ for line in lines:
         new_ca.competency_area = line.lower().replace('- ca:', '').strip()
         competency_areas.append(new_ca)
 
+    if '- level' in line.lower():
+        # Set level for performance indicators to follow.
+        number_location = line.find(':')
+        current_level = line[number_location-1]
+
+    if 'pi:' in line.lower():
+        # Competency area for this performance indicator is the most recent ca.
+        new_pi = PerformanceIndicator(current_level, competency_areas[-1])
+        new_pi.performance_indicator = line.lower().replace('  - pi:', '').strip()
+        performance_indicators.append(new_pi)
+
 
 current_fa = ''
 for ca in competency_areas:
@@ -45,3 +58,5 @@ for ca in competency_areas:
         print('\n' + current_fa.focus_area.title())
     print('  ' + ca.competency_area.title())
 
+for pi in performance_indicators:
+    print(pi.performance_indicator.capitalize())
