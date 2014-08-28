@@ -79,20 +79,21 @@ def auto_gen_all_standards():
         for ca in competency_areas:
             if ca.focus_area != current_fa:
                 current_fa = ca.focus_area
-                #print('\n' + current_fa.focus_area.title())
                 f.write('\n' + current_fa.focus_area.title() + '\n---\n\n')
-            #print('\n  ' + ca.competency_area.title())
             f.write('- ' + ca.competency_area.title() + '\n')
 
             # Run through pi's, pull relevant ones.
             #  Would be much better in a db, running a query!
-            current_level = ''
+            levels = ['', '1', '2', '3']
             for pi in performance_indicators:
                 if pi.competency_area == ca:
-                    if pi.level != current_level:
-                        current_level = pi.level
-                        #print('\n    Level %s' % current_level)
-                    #print('      ' + pi.performance_indicator.capitalize())
+                    level_shown = False
+                    for level in levels:
+                        if pi.level == level:
+                            if not level_shown and level != '':
+                                f.write('\n  - Level %s Performance Indicators:' % level)
+                                level_shown = True
+                            f.write('\n  - ' + pi.performance_indicator.capitalize())
 
     print("Generated file: all_standards_simple_format.md.")
 
