@@ -92,7 +92,7 @@ def auto_gen_all_standards():
                         if not level_shown and level != '':
                             f.write('\n  - Level %s Performance Indicators:' % level)
                             level_shown = True
-                        f.write('\n  - ' + pi.performance_indicator.capitalize())
+                        f.write('\n    - ' + pi.performance_indicator.capitalize())
                         
 
 
