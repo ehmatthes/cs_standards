@@ -79,12 +79,31 @@ def auto_gen_all_standards():
         for ca in competency_areas:
             if ca.focus_area != current_fa:
                 current_fa = ca.focus_area
-                f.write('\n' + current_fa.focus_area.title() + '\n---\n\n')
-            f.write('- ' + ca.competency_area.title() + '\n')
+                f.write('\n\n' + current_fa.focus_area.title() + '\n---\n\n')
+            f.write('\n- ' + ca.competency_area.title())
 
             # Run through pi's, pull relevant ones.
             #  Would be much better in a db, running a query!
             levels = ['', '1', '2', '3']
+            for level in levels:
+                level_shown = False
+                for pi in performance_indicators:
+                    if pi.level == level and pi.competency_area == ca:
+                        if not level_shown and level != '':
+                            f.write('\n  - Level %s Performance Indicators:' % level)
+                            level_shown = True
+                        f.write('\n  - ' + pi.performance_indicator.capitalize())
+                        
+
+
+                            
+    print("Generated file: all_standards_simple_format.md.")
+
+
+
+auto_gen_all_standards()
+
+"""
             for pi in performance_indicators:
                 if pi.competency_area == ca:
                     level_shown = False
@@ -94,9 +113,4 @@ def auto_gen_all_standards():
                                 f.write('\n  - Level %s Performance Indicators:' % level)
                                 level_shown = True
                             f.write('\n  - ' + pi.performance_indicator.capitalize())
-
-    print("Generated file: all_standards_simple_format.md.")
-
-
-
-auto_gen_all_standards()
+"""
