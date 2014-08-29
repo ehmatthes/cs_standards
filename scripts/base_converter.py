@@ -105,8 +105,11 @@ def auto_gen_all_standards(prefix = ''):
 
                             
     print("Generated file: all_standards_simple_format.md. prefix: %s" % prefix)
-
+    # Create .docx version of md file.
+    from subprocess import call
+    #call(["pandoc", "/home/ehmatthes/development/projects/cs_standards/auto_generated_files/all_standards_simple_format.md -o all_standards_simple_format.docx"])
 
 
 auto_gen_all_standards()
-auto_gen_all_standards(prefix='____ ')
+#auto_gen_all_standards(prefix='____ ')
+
